@@ -12,10 +12,10 @@
                         <h6>{{ $req['title'] }}</h6>
                         <span>
                         @if ($req['value'] == true)
-                                <i class="bi bi-check-circle-fill text-success"></i> 755
+                                <i class="bi bi-check-circle-fill text-success"></i> 775
                             @else
                                 @php $failed += 1 @endphp
-                                <i class="bi bi-ban-fill text-danger"></i> 755
+                                <i class="bi bi-ban-fill text-danger"></i> 775
                             @endif
                     </span>
                     </div>
