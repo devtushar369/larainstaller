@@ -39,7 +39,7 @@ class CheckPermissionService
     {
         if (file_exists($path)){
             $permissions = substr(sprintf('%o', fileperms($path)), -3); // Get last 3 digits of permissions
-            if (is_writable($path) && $permissions === '755'){
+            if (is_writable($path) && $permissions === '775'){
                 return true;
             }
         }
