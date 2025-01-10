@@ -1,0 +1,26 @@
+{
+    "name": "hashcode/larainstaller",
+    "description": "A web-based Laravel installer package that simplifies project setup and configuration, enabling developers to start their projects quickly without using the command line.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Hashcode\\Larainstaller\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "devtushar369",
+            "email": "dev.tusharahmed@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hashcode\\Larainstaller\\Providers\\LarainstallerServiceProvider"
+            ]
+        }
+    }
+}
